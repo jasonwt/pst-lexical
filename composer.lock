@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7d454b2a4384eabe1cf6759ef7c8e7d",
+    "content-hash": "ac961ded9fef0d0dc061dafe7fef5e49",
     "packages": [
         {
             "name": "pst/debugging",
@@ -12,7 +12,11 @@
             "dist": {
                 "type": "path",
                 "url": "../debugging",
-                "reference": "0013dbc7b1e3015544cc23116faab7a29820c1dc"
+                "reference": "90cecf8fd4e946cca141b019733cd6c4e25e85e7"
+            },
+            "require": {
+                "php": ">=7.4",
+                "pst/testing": "dev-main"
             },
             "type": "library",
             "autoload": {
@@ -20,7 +24,7 @@
                     "PST\\Debugging\\": "src/"
                 },
                 "files": [
-                    "src/Debugging.php"
+                    "src/functions.php"
                 ]
             },
             "license": [
@@ -42,7 +46,10 @@
             "dist": {
                 "type": "path",
                 "url": "../testing",
-                "reference": "6e10cab178888d686d1f08b724e1179f44f943c9"
+                "reference": "e183ae0a4916ff3863322ebd502f16db4a5b49c1"
+            },
+            "require": {
+                "php": ">=7.4"
             },
             "type": "library",
             "autoload": {
@@ -74,7 +81,9 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.4"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

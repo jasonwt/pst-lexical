@@ -12,8 +12,6 @@ use PST\Lexical\Implementations\SQL\SQLLexerFactory;
 use PST\Lexical\Implementations\SQL\SQLPatterns;
 use PST\Testing\Should;
 
-PST\Debugging\dp('test');
-
 use function PST\Debugging\dp;
 
 try {
@@ -25,7 +23,7 @@ try {
 
     $lexer = SQLLexerFactory::instantiate('SELECT_EXPRESSION', $sql);
 
-    dp($lexer->tokens());
+//    dp($lexer->tokens());
 
 
 
