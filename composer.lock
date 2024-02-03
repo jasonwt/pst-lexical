@@ -1,0 +1,80 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c7d454b2a4384eabe1cf6759ef7c8e7d",
+    "packages": [
+        {
+            "name": "pst/debugging",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../debugging",
+                "reference": "0013dbc7b1e3015544cc23116faab7a29820c1dc"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PST\\Debugging\\": "src/"
+                },
+                "files": [
+                    "src/Debugging.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Thompson"
+                }
+            ],
+            "description": "PST (Peyton, Stacy, Timber) Debugging Module",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "pst/testing",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../testing",
+                "reference": "6e10cab178888d686d1f08b724e1179f44f943c9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PST\\Testing\\": "src/"
+                },
+                "files": []
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Thompson"
+                }
+            ],
+            "description": "PST (Peyton, Stacy, Timber) Testing Module",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pst/testing": 20,
+        "pst/debugging": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

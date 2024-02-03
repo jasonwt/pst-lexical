@@ -1,0 +1,34 @@
+{
+    "name": "pst/lexical",
+    "description": "PST (Peyton, Stacy, Timber) Lexical Module",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PST\\Lexical\\": "src/"
+        },
+        "files": []
+    },
+    "authors": [
+        {
+            "name": "Jason Thompson"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../testing"
+        },
+        {
+            "type": "path",
+            "url": "../debugging"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "pst/testing": "dev-main",
+        "pst/debugging": "dev-main"
+    }
+}
